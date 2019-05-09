@@ -9,7 +9,8 @@ import{Recipe} from '../recipes.model';
 export class RecipesListComponent implements OnInit {
 
   recipes:Recipe[] = [
-    new Recipe('A Test Recipe','This is recipe new cake here', 'http://pngimg.com/download/13136' )
+    new Recipe('A Test Recipe','This is recipe new cake here', 'https://i.ibb.co/PwzMcPJ/Easy-Vegan-Chocolate-Cake-1.jpg'),
+    new Recipe('A Test Recipe','This is recipe new cake here', 'https://i.ibb.co/PwzMcPJ/Easy-Vegan-Chocolate-Cake-1.jpg')
     ];
 
   constructor() { }
@@ -18,5 +19,4 @@ export class RecipesListComponent implements OnInit {
   }
 
 }
-
 
