@@ -8,11 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShoppingListComponent implements OnInit {
 ingredients:Ingredients [] = [
-  new Ingredients('Apples' , 5),
-  new Ingredients ('Tomato', 10)
+  new Ingredients('Apples' ,5),
+  new Ingredients ('Tomato',10)
 ];
   constructor() { }
-
   ngOnInit() {
   }
 
