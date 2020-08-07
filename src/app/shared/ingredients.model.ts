@@ -1,3 +1,4 @@
 export class Ingredients{
-constructor(public name:string, public amount:number,public city:string){}
+constructor(public name:string, public amount:number,public city:string){
+}
 }
